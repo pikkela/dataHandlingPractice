@@ -1,0 +1,937 @@
+{
+    "regId_1": {
+        "FORMAT": "", 
+        "NOTE": " REAL4", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            1, 
+            2
+        ], 
+        "VARIABLE NAME": " Flow Rate"
+    }, 
+    "regId_10": {
+        "FORMAT": " REAL4", 
+        "NOTE": "", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            19, 
+            20
+        ], 
+        "VARIABLE NAME": " Positive energy decimal fraction"
+    }, 
+    "regId_11": {
+        "FORMAT": " LONG", 
+        "NOTE": "", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            21, 
+            22
+        ], 
+        "VARIABLE NAME": " Negative energy accumulator"
+    }, 
+    "regId_12": {
+        "FORMAT": " REAL4", 
+        "NOTE": "", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            23, 
+            24
+        ], 
+        "VARIABLE NAME": " Negative energy decimal fraction"
+    }, 
+    "regId_13": {
+        "FORMAT": " LONG", 
+        "NOTE": "", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            25, 
+            26
+        ], 
+        "VARIABLE NAME": " Net accumulator"
+    }, 
+    "regId_14": {
+        "FORMAT": " REAL4", 
+        "NOTE": "", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            27, 
+            28
+        ], 
+        "VARIABLE NAME": " Net decimal fraction"
+    }, 
+    "regId_15": {
+        "FORMAT": " LONG", 
+        "NOTE": "", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            29, 
+            30
+        ], 
+        "VARIABLE NAME": " Net energy accumulator"
+    }, 
+    "regId_16": {
+        "FORMAT": " REAL4", 
+        "NOTE": "", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            31, 
+            32
+        ], 
+        "VARIABLE NAME": " Net energy decimal fraction"
+    }, 
+    "regId_17": {
+        "FORMAT": " REAL4", 
+        "NOTE": " Unit: C", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            33, 
+            34
+        ], 
+        "VARIABLE NAME": " Temperature #1/inlet"
+    }, 
+    "regId_18": {
+        "FORMAT": " REAL4", 
+        "NOTE": " Unit: C", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            35, 
+            36
+        ], 
+        "VARIABLE NAME": " Temperature #2/outlet"
+    }, 
+    "regId_19": {
+        "FORMAT": " REAL4", 
+        "NOTE": "", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            37, 
+            38
+        ], 
+        "VARIABLE NAME": " Analog input AI3"
+    }, 
+    "regId_2": {
+        "FORMAT": " REAL4", 
+        "NOTE": " Unit: GJ/h", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            3, 
+            4
+        ], 
+        "VARIABLE NAME": " Energy Flow Rate"
+    }, 
+    "regId_20": {
+        "FORMAT": " REAL4", 
+        "NOTE": "", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            39, 
+            40
+        ], 
+        "VARIABLE NAME": " Analog input AI4"
+    }, 
+    "regId_21": {
+        "FORMAT": " REAL4", 
+        "NOTE": "", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            41, 
+            42
+        ], 
+        "VARIABLE NAME": " Analog input AI5"
+    }, 
+    "regId_22": {
+        "FORMAT": " REAL4", 
+        "NOTE": " In unit mA", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            43, 
+            44
+        ], 
+        "VARIABLE NAME": " Current input at AI3"
+    }, 
+    "regId_23": {
+        "FORMAT": " REAL4", 
+        "NOTE": " In unit mA", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            45, 
+            46
+        ], 
+        "VARIABLE NAME": " Current input at AI3"
+    }, 
+    "regId_24": {
+        "FORMAT": " REAL4", 
+        "NOTE": " In unit mA", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            47, 
+            48
+        ], 
+        "VARIABLE NAME": " Current input at AI3"
+    }, 
+    "regId_25": {
+        "FORMAT": " BCD", 
+        "NOTE": " Writable\u300200H for unlock", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            49, 
+            50
+        ], 
+        "VARIABLE NAME": " System password "
+    }, 
+    "regId_26": {
+        "FORMAT": " BCD", 
+        "NOTE": " Writable\u3002\u201cA55Ah\u201d for unlock", 
+        "NUMBER": " 1", 
+        "REGISTER": [
+            51
+        ], 
+        "VARIABLE NAME": " Password for hardware "
+    }, 
+    "regId_27": {
+        "FORMAT": " BCD", 
+        "NOTE": " Writable\u30026 Bytes of ", 
+        "NUMBER": " 3", 
+        "REGISTER": [
+            53, 
+            55
+        ], 
+        "VARIABLE NAME": " Calendar (date and time) "
+    }, 
+    "regId_28": {
+        "FORMAT": " BCD", 
+        "NOTE": " Writable\u3002For example 0512H stands Auto-save on 12:00 on 5 th \u30020012H for 12:00 on everyday\u3002", 
+        "NUMBER": " 1", 
+        "REGISTER": [
+            56
+        ], 
+        "VARIABLE NAME": " Day+Hour for Auto-Save "
+    }, 
+    "regId_29": {
+        "FORMAT": " INTEGER", 
+        "NOTE": " Writable", 
+        "NUMBER": " 1", 
+        "REGISTER": [
+            59
+        ], 
+        "VARIABLE NAME": " Key to input"
+    }, 
+    "regId_3": {
+        "FORMAT": " REAL4", 
+        "NOTE": " Unit: m/s", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            5, 
+            6
+        ], 
+        "VARIABLE NAME": " Velocity"
+    }, 
+    "regId_30": {
+        "FORMAT": " INTEGER", 
+        "NOTE": " Writable\u3002", 
+        "NUMBER": " 1", 
+        "REGISTER": [
+            60
+        ], 
+        "VARIABLE NAME": " Go to Window #"
+    }, 
+    "regId_31": {
+        "FORMAT": " INTEGER", 
+        "NOTE": " Writable\u3002In unit second", 
+        "NUMBER": " 1", 
+        "REGISTER": [
+            61
+        ], 
+        "VARIABLE NAME": " LCD Back-lit lights for number of seconds"
+    }, 
+    "regId_32": {
+        "FORMAT": " INTEGER", 
+        "NOTE": " Writable\u3002Max 255", 
+        "NUMBER": " 1", 
+        "REGISTER": [
+            62
+        ], 
+        "VARIABLE NAME": " Times for the beeper"
+    }, 
+    "regId_33": {
+        "FORMAT": " INTEGER", 
+        "NOTE": " Writable\u3002 Max 65535", 
+        "NUMBER": " 1", 
+        "REGISTER": [
+            62
+        ], 
+        "VARIABLE NAME": " Pulses left for OCT"
+    }, 
+    "regId_34": {
+        "FORMAT": " BIT", 
+        "NOTE": " 16bits see note 4", 
+        "NUMBER": " 1", 
+        "REGISTER": [
+            72
+        ], 
+        "VARIABLE NAME": " Error Code"
+    }, 
+    "regId_35": {
+        "FORMAT": " REAL4", 
+        "NOTE": " In unit Ohm", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            77, 
+            78
+        ], 
+        "VARIABLE NAME": " PT100 resistance of inlet"
+    }, 
+    "regId_36": {
+        "FORMAT": " REAL4", 
+        "NOTE": " In unit Ohm", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            79, 
+            80
+        ], 
+        "VARIABLE NAME": " PT100 resistance of outlet"
+    }, 
+    "regId_37": {
+        "FORMAT": " REAL4", 
+        "NOTE": " In unit Micro-second", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            81, 
+            82
+        ], 
+        "VARIABLE NAME": " Total travel time"
+    }, 
+    "regId_38": {
+        "FORMAT": " REAL4", 
+        "NOTE": " In unit Nino-second", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            83, 
+            84
+        ], 
+        "VARIABLE NAME": " Delta travel time"
+    }, 
+    "regId_39": {
+        "FORMAT": " REAL4", 
+        "NOTE": " In unit Micro-second", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            85, 
+            86
+        ], 
+        "VARIABLE NAME": " Upstream travel time"
+    }, 
+    "regId_4": {
+        "FORMAT": " REAL4", 
+        "NOTE": " Unit: m/s", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            7, 
+            8
+        ], 
+        "VARIABLE NAME": " Fluid sound speed"
+    }, 
+    "regId_40": {
+        "FORMAT": " REAL4", 
+        "NOTE": " In unit Micro-second", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            87, 
+            88
+        ], 
+        "VARIABLE NAME": " Downstream travel time"
+    }, 
+    "regId_41": {
+        "FORMAT": " REAL4", 
+        "NOTE": " In unit mA", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            89, 
+            90
+        ], 
+        "VARIABLE NAME": " Output current"
+    }, 
+    "regId_42": {
+        "FORMAT": " INTEGER", 
+        "NOTE": " The high byte is the step and low for signal quality  range 00-99  the larger the better.", 
+        "NUMBER": " 1", 
+        "REGISTER": [
+            92
+        ], 
+        "VARIABLE NAME": " Working step and Signal Quality"
+    }, 
+    "regId_43": {
+        "FORMAT": " INTEGER", 
+        "NOTE": " Range 0-2047", 
+        "NUMBER": " 1", 
+        "REGISTER": [
+            93
+        ], 
+        "VARIABLE NAME": " Upstream strength"
+    }, 
+    "regId_44": {
+        "FORMAT": " INTEGER", 
+        "NOTE": " Range 0-2047", 
+        "NUMBER": " 1", 
+        "REGISTER": [
+            94
+        ], 
+        "VARIABLE NAME": " Downstream strength"
+    }, 
+    "regId_45": {
+        "FORMAT": " INTEGER", 
+        "NOTE": " 0 : English  1:Chinese Other language will be supported later", 
+        "NUMBER": " 1", 
+        "REGISTER": [
+            96
+        ], 
+        "VARIABLE NAME": " Language used in user interface"
+    }, 
+    "regId_46": {
+        "FORMAT": " REAL4", 
+        "NOTE": " Normal 100+-3%", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            97, 
+            98
+        ], 
+        "VARIABLE NAME": " The rate of the measured travel time by the calculated travel time."
+    }, 
+    "regId_47": {
+        "FORMAT": " REAL4", 
+        "NOTE": "", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            99, 
+            100
+        ], 
+        "VARIABLE NAME": " Reynolds number"
+    }, 
+    "regId_48": {
+        "FORMAT": " REAL4", 
+        "NOTE": "", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            101, 
+            102
+        ], 
+        "VARIABLE NAME": " Pipe Reynolds factor"
+    }, 
+    "regId_49": {
+        "FORMAT": " LONG", 
+        "NOTE": " unsigned in second", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            103, 
+            104
+        ], 
+        "VARIABLE NAME": " Working Timer"
+    }, 
+    "regId_5": {
+        "FORMAT": " LONG", 
+        "NOTE": " Unit is selected by M31", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            9, 
+            10
+        ], 
+        "VARIABLE NAME": " Positive accumulator"
+    }, 
+    "regId_50": {
+        "FORMAT": " LONG", 
+        "NOTE": " unsigned in second", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            105, 
+            106
+        ], 
+        "VARIABLE NAME": " Total working time"
+    }, 
+    "regId_51": {
+        "FORMAT": " LONG", 
+        "NOTE": " Unsigned", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            105, 
+            106
+        ], 
+        "VARIABLE NAME": " Total power on-off time"
+    }, 
+    "regId_52": {
+        "FORMAT": " REAL4", 
+        "NOTE": " In Cubic Meter  float", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            113, 
+            114
+        ], 
+        "VARIABLE NAME": " Net accumulator"
+    }, 
+    "regId_53": {
+        "FORMAT": " REAL4", 
+        "NOTE": " In Cubic Meter  float", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            115, 
+            116
+        ], 
+        "VARIABLE NAME": " Positive accumulator"
+    }, 
+    "regId_54": {
+        "FORMAT": " REAL4", 
+        "NOTE": " In Cubic Meter  float", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            117, 
+            118
+        ], 
+        "VARIABLE NAME": " Negative accumulator"
+    }, 
+    "regId_55": {
+        "FORMAT": " REAL4", 
+        "NOTE": " In GJ float", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            119, 
+            120
+        ], 
+        "VARIABLE NAME": " Net energy accumulator"
+    }, 
+    "regId_56": {
+        "FORMAT": " REAL4", 
+        "NOTE": " In GJ float", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            121, 
+            122
+        ], 
+        "VARIABLE NAME": " Positive energy accumulator"
+    }, 
+    "regId_57": {
+        "FORMAT": " REAL4", 
+        "NOTE": " In GJ float", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            123, 
+            124
+        ], 
+        "VARIABLE NAME": " Negative energy accumulator"
+    }, 
+    "regId_58": {
+        "FORMAT": " REAL4", 
+        "NOTE": " In Cubic Meter  float", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            125, 
+            126
+        ], 
+        "VARIABLE NAME": " Flow for today"
+    }, 
+    "regId_59": {
+        "FORMAT": " REAL4", 
+        "NOTE": " In Cubic Meter  float", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            127, 
+            128
+        ], 
+        "VARIABLE NAME": " Flow for this month"
+    }, 
+    "regId_6": {
+        "FORMAT": " REAL4", 
+        "NOTE": " Same unit as the", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            11, 
+            12
+        ], 
+        "VARIABLE NAME": " Positive decimal fraction"
+    }, 
+    "regId_60": {
+        "FORMAT": " LONG", 
+        "NOTE": "", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            129, 
+            130
+        ], 
+        "VARIABLE NAME": " Manual accumulator"
+    }, 
+    "regId_61": {
+        "FORMAT": " REAL4", 
+        "NOTE": "", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            131, 
+            132
+        ], 
+        "VARIABLE NAME": " Manual accumulator decimal fraction"
+    }, 
+    "regId_62": {
+        "FORMAT": " LONG", 
+        "NOTE": "", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            133, 
+            134
+        ], 
+        "VARIABLE NAME": " Batch accumulator"
+    }, 
+    "regId_63": {
+        "FORMAT": " REAL4", 
+        "NOTE": "", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            135, 
+            136
+        ], 
+        "VARIABLE NAME": " Batch accumulator decimal fraction"
+    }, 
+    "regId_64": {
+        "FORMAT": " LONG", 
+        "NOTE": "", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            137, 
+            138
+        ], 
+        "VARIABLE NAME": " Flow for today"
+    }, 
+    "regId_65": {
+        "FORMAT": " REAL4", 
+        "NOTE": "", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            139, 
+            140
+        ], 
+        "VARIABLE NAME": " Flow for today decimal fraction"
+    }, 
+    "regId_66": {
+        "FORMAT": " LONG", 
+        "NOTE": "", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            141, 
+            142
+        ], 
+        "VARIABLE NAME": " Flow for this month"
+    }, 
+    "regId_67": {
+        "FORMAT": " REAL4", 
+        "NOTE": "", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            143, 
+            144
+        ], 
+        "VARIABLE NAME": " Flow for this month decimal fraction"
+    }, 
+    "regId_68": {
+        "FORMAT": " LONG", 
+        "NOTE": "", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            145, 
+            146
+        ], 
+        "VARIABLE NAME": " Flow for this year"
+    }, 
+    "regId_69": {
+        "FORMAT": " REAL4", 
+        "NOTE": "", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            147, 
+            148
+        ], 
+        "VARIABLE NAME": " Flow for this year decimal fraction"
+    }, 
+    "regId_7": {
+        "FORMAT": " LONG", 
+        "NOTE": "", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            13, 
+            14
+        ], 
+        "VARIABLE NAME": " Negative accumulator"
+    }, 
+    "regId_70": {
+        "FORMAT": " INTEGER", 
+        "NOTE": "", 
+        "NUMBER": " 1", 
+        "REGISTER": [
+            158
+        ], 
+        "VARIABLE NAME": " Current display window"
+    }, 
+    "regId_71": {
+        "FORMAT": " LONG", 
+        "NOTE": " In unit second", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            165, 
+            166
+        ], 
+        "VARIABLE NAME": " Failure timer"
+    }, 
+    "regId_72": {
+        "FORMAT": " REAL4", 
+        "NOTE": " Unit\uff1aHz", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            173, 
+            174
+        ], 
+        "VARIABLE NAME": " Current output frequency"
+    }, 
+    "regId_73": {
+        "FORMAT": " REAL4", 
+        "NOTE": " Unit\uff1amA", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            175, 
+            176
+        ], 
+        "VARIABLE NAME": " Current output with 4-20mA"
+    }, 
+    "regId_74": {
+        "FORMAT": " REAL4", 
+        "NOTE": " Unit\uff1aC", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            181, 
+            182
+        ], 
+        "VARIABLE NAME": " Temperature difference"
+    }, 
+    "regId_75": {
+        "FORMAT": " REAL4", 
+        "NOTE": " Unit\uff1aCubic Meter", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            183, 
+            184
+        ], 
+        "VARIABLE NAME": " Lost flow for period of last power off"
+    }, 
+    "regId_76": {
+        "FORMAT": " REAL4", 
+        "NOTE": " Should less than 0.1", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            185, 
+            186
+        ], 
+        "VARIABLE NAME": " Clock coefficient"
+    }, 
+    "regId_77": {
+        "FORMAT": " REAL4", 
+        "NOTE": " Time to save by 0056", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            187, 
+            188
+        ], 
+        "VARIABLE NAME": " Total time for Auto-Save"
+    }, 
+    "regId_78": {
+        "FORMAT": " REAL4", 
+        "NOTE": " Time to save by 0056", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            189, 
+            190
+        ], 
+        "VARIABLE NAME": " POS flow for Auto-Save"
+    }, 
+    "regId_79": {
+        "FORMAT": " REAL4", 
+        "NOTE": " Time to save by 0056", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            191, 
+            192
+        ], 
+        "VARIABLE NAME": " Flow rate for Auto-Save"
+    }, 
+    "regId_8": {
+        "FORMAT": " REAL4", 
+        "NOTE": " REAL4 is a format of Singular IEEE-754 number", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            15, 
+            16
+        ], 
+        "VARIABLE NAME": " Negative decimal fraction"
+    }, 
+    "regId_80": {
+        "FORMAT": " REAL4", 
+        "NOTE": " In millimeter", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            221, 
+            222
+        ], 
+        "VARIABLE NAME": " Inner pipe diameter"
+    }, 
+    "regId_81": {
+        "FORMAT": " REAL4", 
+        "NOTE": " In microsecond", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            229, 
+            230
+        ], 
+        "VARIABLE NAME": " Upstream delay"
+    }, 
+    "regId_82": {
+        "FORMAT": " REAL4", 
+        "NOTE": " In microsecond", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            231, 
+            232
+        ], 
+        "VARIABLE NAME": " Downstream delay"
+    }, 
+    "regId_83": {
+        "FORMAT": " REAL4", 
+        "NOTE": " In microsecond", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            233, 
+            234
+        ], 
+        "VARIABLE NAME": " Calculated travel time"
+    }, 
+    "regId_84": {
+        "FORMAT": " BCD", 
+        "NOTE": "", 
+        "NUMBER": " 32", 
+        "REGISTER": [
+            257, 
+            288
+        ], 
+        "VARIABLE NAME": " LCD buffer "
+    }, 
+    "regId_85": {
+        "FORMAT": " INTEGER", 
+        "NOTE": "", 
+        "NUMBER": " 1", 
+        "REGISTER": [
+            289
+        ], 
+        "VARIABLE NAME": " LCD buffer pointer"
+    }, 
+    "regId_86": {
+        "FORMAT": " LONG", 
+        "NOTE": " Unsigned", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            311
+        ], 
+        "VARIABLE NAME": " Worked time for today"
+    }, 
+    "regId_87": {
+        "FORMAT": " LONG", 
+        "NOTE": " Unsigned", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            313
+        ], 
+        "VARIABLE NAME": " Worked time for this month"
+    }, 
+    "regId_88": {
+        "FORMAT": " INTEGER", 
+        "NOTE": " See note 5", 
+        "NUMBER": " 1", 
+        "REGISTER": [
+            1437
+        ], 
+        "VARIABLE NAME": " Unit for flow rate"
+    }, 
+    "regId_89": {
+        "FORMAT": " INTEGER", 
+        "NOTE": " Range 0~7", 
+        "NUMBER": " 1", 
+        "REGISTER": [
+            1438
+        ], 
+        "VARIABLE NAME": " Unit for flow totalizer"
+    }, 
+    "regId_9": {
+        "FORMAT": " LONG", 
+        "NOTE": "", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            17, 
+            18
+        ], 
+        "VARIABLE NAME": " Positive energy accumulator"
+    }, 
+    "regId_90": {
+        "FORMAT": " INTEGER", 
+        "NOTE": " Range 0~7", 
+        "NUMBER": " 1", 
+        "REGISTER": [
+            1439
+        ], 
+        "VARIABLE NAME": " Multiplier for totalizer"
+    }, 
+    "regId_91": {
+        "FORMAT": " INTEGER", 
+        "NOTE": " Range 0~10", 
+        "NUMBER": " 1", 
+        "REGISTER": [
+            1440
+        ], 
+        "VARIABLE NAME": " Multiplier for energy accumulator"
+    }, 
+    "regId_92": {
+        "FORMAT": " INTEGER", 
+        "NOTE": " 0=GJ 1=Kcal 2=KWh 3=BTU", 
+        "NUMBER": " 1", 
+        "REGISTER": [
+            1441
+        ], 
+        "VARIABLE NAME": " Unit for energy rate"
+    }, 
+    "regId_93": {
+        "FORMAT": " INTEGER", 
+        "NOTE": "", 
+        "NUMBER": " 1", 
+        "REGISTER": [
+            1442
+        ], 
+        "VARIABLE NAME": " Device address"
+    }, 
+    "regId_94": {
+        "FORMAT": " REAL4", 
+        "NOTE": "", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            1451
+        ], 
+        "VARIABLE NAME": " User scale factor"
+    }, 
+    "regId_95": {
+        "FORMAT": " REAL4", 
+        "NOTE": " Read only", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            1521
+        ], 
+        "VARIABLE NAME": " Manufacturer scale factor"
+    }, 
+    "regId_96": {
+        "FORMAT": " BCD", 
+        "NOTE": " High byte first", 
+        "NUMBER": " 2", 
+        "REGISTER": [
+            1529
+        ], 
+        "VARIABLE NAME": " Electronic serial number "
+    }
+}
